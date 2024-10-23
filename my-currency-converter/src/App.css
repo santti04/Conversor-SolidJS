@@ -1,0 +1,84 @@
+/* Fondo con degradado de azul a blanco */
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(180deg, #ffffff, #2e73ff);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Contenedor centrado */
+.container {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 80px;
+  border-radius: 70px;
+  text-align: center;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos de los labels */
+label {
+  font-size: 18px;
+  /* Tamaño de fuente ajustable */
+  font-weight: bold;
+  /* Negrita opcional */
+}
+
+/* Estilos de los grupos de entrada */
+.input-group {
+  margin: 15px 0;
+}
+
+/* Botón de conversión */
+button {
+  padding: 10px 20px;
+  background-color: #21d900;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #18a200;
+}
+
+/* Estilos del texto */
+h1 {
+  margin-bottom: 20px;
+}
+
+p {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+/* Estilos para los input */
+input,
+select {
+  width: 80%;
+  /* Ocupa el ancho del contenedor */
+  padding: 10px;
+  /* Espacio interno más grande */
+  font-size: 16px;
+  /* Aumenta el tamaño del texto */
+  border: 1px solid #ccc;
+  /* Borde */
+  border-radius: 8px;
+  /* Bordes redondeados */
+  box-sizing: border-box;
+  /* Asegura que el padding esté dentro del ancho total */
+  margin-top: 6px;
+  /* Espacio adicional entre el label y el input */
+}
+
+/* Aumentar el tamaño del select también */
+select {
+  width: 60%;
+  height: 40px;
+  /* Altura del select */
+  font-size: 15px;
+}
